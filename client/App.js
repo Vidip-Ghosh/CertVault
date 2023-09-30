@@ -1,18 +1,11 @@
-import { StatusBar } from "expo-status-bar";
-import { StyleSheet, Text, View } from "react-native";
+
+import { AppBar } from '@react-native-material/core';
+import { StyleSheet, Text, View } from 'react-native';
+import Linking from './components/Linking';
+import Register from './components/Register';
+import Login from './components/Login';
 import { TailwindProvider } from "tailwind-rn";
 import utilities from "./tailwind.json";
-
-export default function App() {
-  return (
-    <TailwindProvider utilities={utilities}>
-      <View style={styles.container}>
-        <Text>Open up App.js to start working on your app!</Text>
-        <StatusBar style="auto" />
-      </View>
-    </TailwindProvider>
-  );
-}
 
 const styles = StyleSheet.create({
   container: {
@@ -22,3 +15,17 @@ const styles = StyleSheet.create({
     justifyContent: "center",
   },
 });
+
+export default function App() {
+  return (
+    <TailwindProvider utilities={utilities}>
+      <View style={styles.container}>
+      <Login/>
+      </View>
+    </TailwindProvider>
+  );
+}
+
+
+
+
