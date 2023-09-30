@@ -6,7 +6,9 @@
     "start": "expo start",
     "android": "expo start --android",
     "ios": "expo start --ios",
-    "web": "expo start --web"
+    "web": "expo start --web",
+    "build:tailwind": "tailwindcss --input input.css --output tailwind.css --no-autoprefixer && tailwind-rn",
+    "dev:tailwind": "concurrently \"tailwindcss --input input.css --output tailwind.css --no-autoprefixer --watch\" \"tailwind-rn --watch\""
   },
   "dependencies": {
     "@expo/webpack-config": "^19.0.0",
@@ -15,8 +17,9 @@
     "expo-status-bar": "~1.6.0",
     "nativewind": "^2.0.11",
     "react": "18.2.0",
-    "react-dom": "18.2.0",
     "react-native": "0.72.5",
+    "tailwind-rn": "^4.2.0",
+    "react-dom": "18.2.0",
     "react-native-web": "~0.19.6",
     "react-router-native": "^6.16.0"
   },

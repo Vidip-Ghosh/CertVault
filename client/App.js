@@ -1,3 +1,4 @@
+
 import { AppBar } from '@react-native-material/core';
 import { StyleSheet, Text, View } from 'react-native';
 import Linking from './components/Linking';
@@ -15,3 +16,7 @@ export default function App() {
     </View>
   );
 }
+
+
+
+
