@@ -1,39 +1,70 @@
-import {TextInput,Stack,Button} from '@react-native-material/core'
-import { StyleSheet,View } from 'react-native'
-import {NativeRouter,Route,Link} from 'react-router-native'
-import { useState } from 'react'
+import React, { useState } from 'react';
+import { TextInput, Button,AppBar } from '@react-native-material/core';
+import { StyleSheet, View } from 'react-native';
+import { NativeRouter } from 'react-router-native';
 
 const Register = () => {
-  const [name,setName] = useState("");
-  const [email,setEmail] = useState("");
-  const [password,setPassword] = useState("");
+  const [name, setName] = useState('');
+  const [email, setEmail] = useState('');
+  const [password, setPassword] = useState('');
+
   return (
     <NativeRouter>
+      <AppBar title="Register"/>
       <View style={styles.container}>
-        <h1>Register</h1>
-        <TextInput variant='outlined' label='Name' style={styles.textInput} value={name}/>
-        <TextInput variant='outlined' label='Email' style={styles.textInput} value={email}/>
-        <TextInput variant='outlined' label='Password' style={styles.textInput} value={password}/>
-        <Stack fill spacing={4}>
-          <Button title='Sign In' variant='outlined' />
-        </Stack>
+        <TextInput
+          variant="outlined"
+          label="Name"
+          style={styles.textInput}
+          value={name}
+          onChangeText={(text) => setName(text)}
+        />
+        <TextInput
+          variant="outlined"
+          label="Email"
+          style={styles.textInput}
+          value={email}
+          onChangeText={(text) => setEmail(text)}
+        />
+        <TextInput
+          variant="outlined"
+          label="Password"
+          style={styles.textInput}
+          value={password}
+          onChangeText={(text) => setPassword(text)}
+          secureTextEntry={true}
+        />
+        <Button title="Sign Up" variant="contained" style={styles.button} />
       </View>
     </NativeRouter>
-  )
-}
+  );
+};
 
 const styles = StyleSheet.create({
-  textInput: {
-      fontSize: 18,
-      margin: 10,
-  },
   container: {
-    alignItems: 'center',
     flex: 1,
+    display: 'flex',
     justifyContent: 'center',
-    marginLeft: 'auto',
-    marginRight: 'auto'
-  }
-})
+    alignItems: 'center',
+    width:'100vw'
+  },
+  title: {
+    fontSize: 30,
+    fontWeight: 'bold',
+    marginBottom: 20,
+  },
+  textInput: {
+    fontSize: 18,
+    marginVertical: 10,
+    paddingVertical: 8,
+    paddingHorizontal: 16,
+    width: '100%', 
+  },
+  button: {
+    marginTop: 20,
+    width: '80%', 
+    paddingVertical: 12,
+  },
+});
 
-export default Register
+export default Register;

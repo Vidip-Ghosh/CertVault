@@ -1,34 +1,61 @@
-import {TextInput,Stack,Button} from '@react-native-material/core'
-import {StyleSheet, Text, View} from 'react-native';
-import { useState } from 'react'
-const Login = () => {
-  const [name,setName] = useState("");
-  const [password,setPassword] = useState("");
-  return (
-    <View style={styles.container}>
-      <h1>Login</h1>
-      <TextInput variant='outlined' label='Name' value={name} style={styles.textInput} />
-      <TextInput variant='outlined' label='Password' value={password} style={styles.textInput}/>
-      <Stack fill spacing={4}>
-        <Button title='Sign In' variant='outlined' />
-        <Text>Don't have an account? <a href="/signup">Register</a></Text>
-      </Stack>
-      
-    </View>
-  )
-}
-const styles = StyleSheet.create({
-  textInput: {
-      fontSize: 18,
-      margin: 10,
-  },
-  container: {
-    alignItems: 'center',
-    flex: 1,
-    justifyContent: 'center',
-    marginLeft: 'auto',
-    marginRight: 'auto'
-  }
-})
+import React, { useState } from 'react';
+import { TextInput, Button, AppBar } from '@react-native-material/core';
+import { StyleSheet, View, Text } from 'react-native';
+import { NativeRouter } from 'react-router-native';
 
-export default Login
+const Login = () => {
+  const [name, setName] = useState('');
+  const [password, setPassword] = useState('');
+
+  return (
+    <NativeRouter>
+      <AppBar title="Log In"/>
+      <View style={styles.container}>
+        <TextInput
+          variant="outlined"
+          label="Name"
+          style={styles.textInput}
+          value={name}
+          onChangeText={(text) => setName(text)}
+        />
+        <TextInput
+          variant="outlined"
+          label="Password"
+          style={styles.textInput}
+          value={password}
+          onChangeText={(text) => setPassword(text)}
+          secureTextEntry={true}
+        />
+        <Button title="Sign In" variant="contained" style={styles.button} />
+      </View>
+    </NativeRouter>
+  );
+};
+
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    display: 'flex',
+    justifyContent: 'center',
+    alignItems: 'center',
+    width:'100vw'
+  },
+  title: {
+    fontSize: 30,
+    fontWeight: 'bold',
+  },
+  textInput: {
+    fontSize: 18,
+    marginVertical: 10,
+    paddingVertical: 8,
+    paddingHorizontal: 16,
+    width: '100%', 
+  },
+  button: {
+    marginTop: 20,
+    width: '150px', 
+    paddingVertical: 12,
+  },
+});
+
+export default Login;
