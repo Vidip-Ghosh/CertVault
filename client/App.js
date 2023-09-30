@@ -1,19 +1,32 @@
-
-import { AppBar } from '@react-native-material/core';
-import { StyleSheet, Text, View } from 'react-native';
-import Linking from './components/Linking';
 import Register from './components/Register';
 import Login from './components/Login';
 import { NativeWindStyleSheet } from "nativewind";
+import Dashboard from './components/Dashboard';
+import { NavigationContainer,DefaultTheme } from '@react-navigation/native';
+import { createNativeStackNavigator } from '@react-navigation/native-stack';
 
 NativeWindStyleSheet.setOutput({
   default: "native",
 });
+const Stack = createNativeStackNavigator();
+
+const MyTheme = {
+  ...DefaultTheme,
+  colors: {
+    ...DefaultTheme.colors,
+    primary: 'rgb(128, 0, 128)',
+  },
+};
+
 export default function App() {
   return (
-    <View>
-      <Register/>
-    </View>
+    <NavigationContainer theme={MyTheme}>
+      <Stack.Navigator>
+        <Stack.Screen name='Login' component={Login}/>
+        <Stack.Screen name='Register' component={Register}/>
+        <Stack.Screen name='Dashboard' component={Dashboard}/>
+      </Stack.Navigator>
+    </NavigationContainer>
   );
 }
 

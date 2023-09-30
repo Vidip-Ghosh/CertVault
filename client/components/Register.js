@@ -10,7 +10,7 @@ const Register = () => {
 
   return (
     <NativeRouter>
-      <AppBar title="Register"/>
+      {/* <AppBar title="Register"/> */}
       <View style={styles.container}>
         <TextInput
           variant="outlined"
@@ -62,7 +62,7 @@ const styles = StyleSheet.create({
   },
   button: {
     marginTop: 20,
-    width: '80%', 
+    width: '10%', 
     paddingVertical: 12,
   },
 });

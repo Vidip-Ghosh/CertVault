@@ -3,13 +3,13 @@ import { TextInput, Button, AppBar } from '@react-native-material/core';
 import { StyleSheet, View, Text } from 'react-native';
 import { NativeRouter } from 'react-router-native';
 
-const Login = () => {
+const Login = ({navigation}) => {
   const [name, setName] = useState('');
   const [password, setPassword] = useState('');
 
   return (
     <NativeRouter>
-      <AppBar title="Log In"/>
+      {/* <AppBar title="Log In"/> */}
       <View style={styles.container}>
         <TextInput
           variant="outlined"
@@ -26,7 +26,22 @@ const Login = () => {
           onChangeText={(text) => setPassword(text)}
           secureTextEntry={true}
         />
-        <Button title="Sign In" variant="contained" style={styles.button} />
+        <Button 
+          onPress={()=>{
+            navigation.navigate('Dashboard')
+          }} 
+          title="Sign In" 
+          variant="contained" 
+          style={styles.button}
+        />
+        <Button 
+          onPress={()=>{
+            navigation.navigate('Register')
+          }} 
+          title="Create New Account" 
+          variant="contained" 
+          style={styles.button}
+        />
       </View>
     </NativeRouter>
   );
@@ -53,7 +68,7 @@ const styles = StyleSheet.create({
   },
   button: {
     marginTop: 20,
-    width: '150px', 
+    width: '15%', 
     paddingVertical: 12,
   },
 });
