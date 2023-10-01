@@ -130,6 +130,38 @@ Contributions are always welcome!
 
    Go to your forked repository on GitHub, and you should see a "Compare & pull request" button. Click on it to create a pull request (PR) from your branch to the main CertVault repository.
 
+*************************************************************
+
+<h2>✔Project Admin</h2>
+
+<table>
+  <tr>
+<td align="center">
+  <a href="https://github.com/Vidip-Ghosh">
+  <img src="https://notion-avatar.vercel.app/api/img/eyJmYWNlIjoxNSwibm9zZSI6MCwibW91dGgiOjEsImV5ZXMiOjQsImV5ZWJyb3dzIjowLCJnbGFzc2VzIjoxMCwiaGFpciI6MzIsImFjY2Vzc29yaWVzIjowLCJkZXRhaWxzIjowLCJiZWFyZCI6MCwiZmxpcCI6MCwiY29sb3IiOiJyZ2JhKDI1NSwgMCwgMCwgMCkiLCJzaGFwZSI6Im5vbmUifQ==" alt="" width="80px">
+    <br />
+  <sub><b>Vidip Ghosh</b></sub></a>
+</td>
+<td align="center">
+  <a href="https://github.com/arVaishali">
+  <img src="https://notion-avatar.vercel.app/api/img/eyJmYWNlIjo4LCJub3NlIjowLCJtb3V0aCI6MTAsImV5ZXMiOjgsImV5ZWJyb3dzIjoxMywiZ2xhc3NlcyI6MTAsImhhaXIiOjQ5LCJhY2Nlc3NvcmllcyI6MCwiZGV0YWlscyI6MCwiYmVhcmQiOjAsImZsaXAiOjAsImNvbG9yIjoicmdiYSgyNTUsIDAsIDAsIDApIiwic2hhcGUiOiJub25lIn0=" alt="" width="80px">
+    <br />
+  <sub><b>Vaishali</b></sub></a>
+</td>
+    <td align="center">
+  <a href="https://github.com/vaishnavi-3969">
+<img src="https://notion-avatar.vercel.app/api/img/eyJmYWNlIjoxLCJub3NlIjoxMywibW91dGgiOjAsImV5ZXMiOjExLCJleWVicm93cyI6MywiZ2xhc3NlcyI6MTAsImhhaXIiOjI1LCJhY2Nlc3NvcmllcyI6MCwiZGV0YWlscyI6MCwiYmVhcmQiOjAsImZsaXAiOjAsImNvbG9yIjoicmdiYSgyNTUsIDAsIDAsIDApIiwic2hhcGUiOiJub25lIn0=" alt="" width="80px">
+    <br />
+  <sub><b>Vaishnavi Kale</b></sub></a>
+</td>
+    <td align="center">
+  <a href="https://github.com/Satvik1769">
+<img src="https://notion-avatar.vercel.app/api/img/eyJmYWNlIjoxMCwibm9zZSI6MTIsIm1vdXRoIjoxOSwiZXllcyI6NCwiZXllYnJvd3MiOjUsImdsYXNzZXMiOjExLCJoYWlyIjozMSwiYWNjZXNzb3JpZXMiOjAsImRldGFpbHMiOjAsImJlYXJkIjowLCJmbGlwIjowLCJjb2xvciI6InJnYmEoMjU1LCAwLCAwLCAwKSIsInNoYXBlIjoibm9uZSJ9" alt="" width="80px">
+    <br />
+  <sub><b>Satvik</b></sub></a>
+</td>
+  </tr>
+</table>
 
 <h2>⭐Give this Project a Star</h2>
 
