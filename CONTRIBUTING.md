@@ -2,13 +2,13 @@
 
 This documentation contains a set of guidelines to help you during the contribution process. 
 
-I'm happy to welcome all the contributions from anyone willing to add new scripts to this repository. Thank you for helping out and remember,
+We're happy to welcome all the contributions from anyone willing to add new scripts to this repository. Thank you for helping out and remember,
 **no contribution is too small.**
 
 
 ## 💻Before Contributing
 
-Welcome to [Deep Learning Simplified](https://github.com/abhisheks008/DL-Simplified). - an open-source repository, containing beginner to advance level deep learning projects for the contributors, who are willing to start their journey in Deep Learning. Devfolio URL, https://devfolio.co/projects/deep-learning-simplified-f013. Before sending your pull requests, make sure that you **read the whole guidelines**. If you have any doubt on the contributing guide, please feel free to reach out.
+Welcome to CertVault - an open-source repository, containing beginner to advance level deep learning projects for the contributors, who are willing to start their journey in Deep Learning. Before sending your pull requests, make sure that you **read the whole guidelines**. If you have any doubt on the contributing guide, please feel free to reach out.
 
 
 ## 🙌Contribution
