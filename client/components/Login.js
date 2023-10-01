@@ -98,7 +98,7 @@ const styles = StyleSheet.create({
   },
   button: {
     marginTop: 20,
-    width: '15%', 
+    width: '35%', 
     paddingVertical: 12,
   },
 });
