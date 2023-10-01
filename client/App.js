@@ -5,6 +5,7 @@ import Dashboard from './components/Dashboard';
 import { NavigationContainer } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import Home from './components/Home';
+import IssuerDashboard from './components/IssuerDashboard';
 
 NativeWindStyleSheet.setOutput({
   default: "native",
@@ -19,6 +20,7 @@ export default function App() {
         <Stack.Screen name='Register' component={Register}/>
         <Stack.Screen name='Dashboard' component={Dashboard}/>
         <Stack.Screen name='Home' component={Home}/>
+        <Stack.Screen name='Issuer Dashboard' component={IssuerDashboard}/>
       </Stack.Navigator>
     </NavigationContainer>
   );
