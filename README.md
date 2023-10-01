@@ -87,7 +87,7 @@ Contributions are always welcome!
    Once you have forked the repository, clone it to your local development environment using the following command:
 
    ```sh
-   https://github.com/<your_github_username>/OpenSourceHackFest.git
+   https://github.com/<your_github_username>/CertVault.git
    ```
 
    Replace **your-username** with your GitHub username.
@@ -97,7 +97,7 @@ Contributions are always welcome!
    Move into the project's directory and create a new branch for your contributions:
 
    ```sh
-   cd OpenSourceHackFest
+   cd CertVault
    git checkout -b my-feature-branch
    ```
 
