@@ -202,4 +202,6 @@ If you want to contact us, you can reach us through social handles.
 
 
 © 2023 CertVault Team
+<br/>
+[![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com) [![forthebadge](https://forthebadge.com/images/badges/built-by-developers.svg)](https://forthebadge.com) [![forthebadge](https://forthebadge.com/images/badges/built-with-swag.svg)](https://forthebadge.com) 
 </div>
