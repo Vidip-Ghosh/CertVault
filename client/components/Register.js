@@ -36,14 +36,13 @@ const Register = () => {
         />
         <Button title="Sign Up" variant="contained" style={styles.button} />
         <Button
-          onPress={() => {
-            navigation.navigate('IssuerDashboard')
-          }}
           title="I'm an Issuer"
-          variant="contained"
+          onPress={() => {
+            navigation.navigate('IssuerDashboard');
+          }}
           style={styles.button}
-        />      
-        </View>
+        />
+      </View>
     </NativeRouter>
   );
 };

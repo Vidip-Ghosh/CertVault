@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { View, Text, Button, FlatList, TouchableOpacity, ScrollView, TextInput } from 'react-native';
-import { Card, Divider, IconButton } from 'react-native-paper';
+import { Appbar, Card, Divider, IconButton } from 'react-native-paper';
 import { NativeRouter } from 'react-router-native';
 
 const sampleCertificates = [
@@ -31,6 +31,7 @@ const IssuerDashboard = () => {
 
     return (
         <NativeRouter>
+         <Appbar title="IssuerDashboard"/>
             <ScrollView contentContainerStyle={{ flexGrow: 1, padding: 16 }}>
                 <Text style={{ fontSize: 24, fontWeight: 'bold', marginBottom: 16 }}>
                     Welcome to the Issuer Dashboard
