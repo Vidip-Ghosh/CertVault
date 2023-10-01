@@ -28,7 +28,7 @@ const Login = ({navigation}) => {
         />
         <Button 
           onPress={()=>{
-            navigation.navigate('Dashboard')
+            navigation.navigate('Home')
           }} 
           title="Sign In" 
           variant="contained" 
@@ -68,7 +68,7 @@ const styles = StyleSheet.create({
   },
   button: {
     marginTop: 20,
-    width: '15%', 
+    width: '60vw', 
     paddingVertical: 12,
   },
 });
