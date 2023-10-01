@@ -1,3 +1,26 @@
+<div align='center'>
+  <h1>CertVault</h1>
+    <h3>Website: <a href="https://www.google.com">Click Here!🎯</a></h3>
+  <img src = "https://github.com/Vidip-Ghosh/CertVault/assets/80088403/20112d8c-b644-46b6-ab3d-7da59a14aa5b" width="300px"/>
+  <h2>Tools and Technologies used</h2>
+     <img src="https://skillicons.dev/icons?i=github,git,react,tailwind,html,css,js,vscode,ipfs"/>
+</div>
+<div align="center">
+
+![GitHub contributors](https://img.shields.io/github/contributors/Vidip-Ghosh/CertVault?style=for-the-badge&color=blue)
+![GitHub Closed issues](https://img.shields.io/github/issues-closed-raw/Vidip-Ghosh/CertVault?style=for-the-badge&color=brightgreen)
+![GitHub PR Open](https://img.shields.io/github/issues-pr/Vidip-Ghosh/CertVault?style=for-the-badge&color=aqua)
+![GitHub PR closed](https://img.shields.io/github/issues-pr-closed-raw/Vidip-Ghosh/CertVault?style=for-the-badge&color=blue)
+![GitHub language count](https://img.shields.io/github/languages/count/Vidip-Ghosh/CertVault?style=for-the-badge&color=brightgreen)
+![GitHub top language](https://img.shields.io/github/languages/top/Vidip-Ghosh/CertVault?style=for-the-badge&color=aqua)
+![GitHub last commit](https://img.shields.io/github/last-commit/Vidip-Ghosh/CertVault?style=for-the-badge&color=blue)
+![GitHub Maintained](https://img.shields.io/badge/Maintained%3F-yes-brightgreen.svg?style=for-the-badge)
+![Github Repo Size](https://img.shields.io/github/repo-size/Vidip-Ghosh/CertVault?style=for-the-badge&color=aqua)
+
+</div>
+******************************************************************************************************************************************************
+
+## 🔴 Welcome contributors!
 ## Run Locally
 
 **Client**
@@ -105,4 +128,20 @@ Contributions are always welcome!
 
 8. **Create a Pull Request**
 
-   Go to your forked repository on GitHub, and you should see a "Compare & pull request" button. Click on it to create a pull request (PR) from your branch to the main HackOdisha repository.
+   Go to your forked repository on GitHub, and you should see a "Compare & pull request" button. Click on it to create a pull request (PR) from your branch to the main CertVault repository.
+
+
+<h2>⭐Give this Project a Star</h2>
+
+If you liked working on this project, do ⭐ and share this repository.
+
+🎉 🎊 😃 Happy Contributing 😃 🎊 🎉
+
+<h2>📬 Contact</h2>
+
+If you want to contact us, you can reach us through social handles.
+
+<a href="https://twitter.com/abcd"><img src="https://seeklogo.com/images/T/twitter-icon-circle-blue-logo-0902F48837-seeklogo.com.png" width="25"></img></a>&nbsp;&nbsp; <a href="https://www.linkedin.com/in/abcd/"><img src="https://www.felberpr.com/wp-content/uploads/linkedin-logo.png" width="25"></img></a>
+
+
+© 2023 CertVault Team
