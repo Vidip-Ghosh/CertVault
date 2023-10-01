@@ -20,6 +20,9 @@
 </div>
 
 ## 🔴 Welcome contributors!
+Cert Vault is not just a digital locker; it's a comprehensive ecosystem designed to handle all aspects of digital credential management. It provides a secure platform for individuals and organizations to store their certificates, badges, and important documents on the decentralized InterPlanetary File System (IPFS). Leveraging blockchain technology, Cert Vault ensures the authenticity of these credentials, allowing users to share them with confidence. Claimers can verify their identity securely and claim their credentials into their digital wallet, streamlining the process of acquiring and managing digital badges and certificates.
+
+
 ## Run Locally
 
 **Client**
@@ -187,6 +190,13 @@ This Code of Conduct is inspired by the [Contributor Covenant](https://www.contr
 </td>
   </tr>
 </table>
+  
+<h2>✨Top Contributors</h2>   
+Thanks goes to these Wonderful People. Contributions of any kind are welcome!🚀 
+<br/>
+<a href="https://github.com/Vidip-Ghosh/CertVault/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=Vidip-Ghosh/CertVault" />
+</a>
 
 <h2>⭐Give this Project a Star</h2>
 
