@@ -6,11 +6,6 @@ We're happy to welcome all the contributions from anyone willing to add new scri
 **no contribution is too small.**
 
 
-## 💻Before Contributing
-
-Welcome to CertVault - an open-source repository, containing beginner to advance level deep learning projects for the contributors, who are willing to start their journey in Deep Learning. Before sending your pull requests, make sure that you **read the whole guidelines**. If you have any doubt on the contributing guide, please feel free to reach out.
-
-
 ## 🙌Contribution
 
 Any contribution is accepted, from fixing grammatical mistakes to implementing complex algorithms. Please read this section if you are contributing your work.
