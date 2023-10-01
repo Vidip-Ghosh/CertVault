@@ -1,9 +1,9 @@
 <div align='center'>
   <h1>CertVault</h1>
-    <h3>Website: <a href="https://www.google.com">Click Here!🎯</a></h3>
+  <h3>Website: <a href="https://www.google.com">Click Here!🎯</a></h3>
   <img src = "https://github.com/Vidip-Ghosh/CertVault/assets/80088403/20112d8c-b644-46b6-ab3d-7da59a14aa5b" width="300px"/>
-  <h2>Tools and Technologies used</h2>
-     <img src="https://skillicons.dev/icons?i=github,git,react,tailwind,html,css,js,vscode,ipfs"/>
+  <br/>
+  <img src="https://skillicons.dev/icons?i=github,git,react,tailwind,html,css,js,vscode,ipfs"/>
 </div>
 <div align="center">
 
