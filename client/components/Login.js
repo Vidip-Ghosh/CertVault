@@ -6,6 +6,35 @@ import { NativeRouter } from 'react-router-native';
 const Login = ({navigation}) => {
   const [name, setName] = useState('');
   const [password, setPassword] = useState('');
+  async function log(){
+
+    
+    const url="http://192.168.1.6:3000/auth/login";
+  
+    const options = {
+      method:"POST",
+      headers: {
+        "Content-Type": "application/json"
+      },
+      body : JSON.stringify({
+        userName : name,
+        password : password
+      })
+    }
+    try{
+      const response = await fetch(url,options);
+      const result = await response.json();
+      if(result.token){
+        navigation.navigate("Dashboard")
+      }
+      console.log(result);
+    }
+    catch(err){
+      console.error(err)
+    }
+      
+
+  }
 
   return (
     <NativeRouter>
@@ -27,10 +56,11 @@ const Login = ({navigation}) => {
           secureTextEntry={true}
         />
         <Button 
-          onPress={()=>{
-            navigation.navigate('Home')
-          }} 
-          title="Sign In" 
+          // onPress={()=>{
+          //   navigation.navigate('Dashboard')
+          // }} 
+           onPress={log}
+          title="Log In" 
           variant="contained" 
           style={styles.button}
         />
@@ -38,7 +68,7 @@ const Login = ({navigation}) => {
           onPress={()=>{
             navigation.navigate('Register')
           }} 
-          title="Create New Account" 
+          title="Sign up" 
           variant="contained" 
           style={styles.button}
         />
@@ -68,7 +98,7 @@ const styles = StyleSheet.create({
   },
   button: {
     marginTop: 20,
-    width: '60vw', 
+    width: '35%', 
     paddingVertical: 12,
   },
 });

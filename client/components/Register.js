@@ -3,10 +3,46 @@ import { TextInput, Button,AppBar } from '@react-native-material/core';
 import { StyleSheet, View } from 'react-native';
 import { NativeRouter } from 'react-router-native';
 
-const Register = () => {
+
+const Register = ({navigation}) => {
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
+
+   async function signup(){
+
+    
+    const url="http://192.168.1.6:3000/auth/signup";
+  
+    const options = {
+      method:"POST",
+      headers: {
+        "Content-Type": "application/json"
+      },
+      body : JSON.stringify({
+        userName : name,
+        email : email,
+        password : password
+      })
+    }
+    console.log(options.body.userName)
+    try{
+      const response = await fetch(url,options);
+      const result = await response.json();
+      if(result.token){
+        navigation.navigate("Dashboard")
+      }
+      console.log(result);
+    }
+    catch(err){
+      console.error(err)
+    }
+      
+
+  }
+
+  
+
 
   return (
     <NativeRouter>
@@ -34,7 +70,7 @@ const Register = () => {
           onChangeText={(text) => setPassword(text)}
           secureTextEntry={true}
         />
-        <Button title="Sign Up" variant="contained" style={styles.button} />
+        <Button title="Sign Up" variant="contained" style={styles.button} onPress={signup} />
       </View>
     </NativeRouter>
   );
@@ -62,7 +98,7 @@ const styles = StyleSheet.create({
   },
   button: {
     marginTop: 20,
-    width: '10%', 
+    width: '35%', 
     paddingVertical: 12,
   },
 });

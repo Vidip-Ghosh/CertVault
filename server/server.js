@@ -1,16 +1,30 @@
 const express = require('express');
-const cors = require('cors');
+const cors = require("cors")
+const mongoose = require("mongoose");
+const bodyParser = require("body-parser");
+const path = require("path")
 const app = express();
-require('dotenv').config();
-const collection = require('./db/db')
-const PORT = process.env.PORT
+app.use(cors())
+app.use('/uploads', express.static(path.join(__dirname, 'uploads')));
+app.use(express.json())
 
-app.use(cors());
 
-app.get('/',(req,res)=>{
-    res.send('Hello from the server');
+
+mongoose.connect("mongodb+srv://Satvik1769:IRONMAN@digilocker.jktyrkc.mongodb.net/").then(()=>{
+    console.log('Connected to database');
+}).catch((e)=>{
+    console.error(`Error connecting to the db ${e}`);
 })
 
-app.listen(PORT,()=>{
-    console.log(`Server is running on port ${PORT}`);
-})
+// Import Routes
+const authRoute = require('./routes/index');
+
+// Route Middlewares
+app.use('/auth', authRoute);
+app.get('/node-version', (req, res) => {
+    res.send(process.version);
+  });
+  
+
+const port = process.env.port ||  3000;
+app.listen(port, function(){console.log("Server running on localhost:" + port)});
