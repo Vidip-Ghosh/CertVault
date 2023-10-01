@@ -18,7 +18,6 @@
 ![Github Repo Size](https://img.shields.io/github/repo-size/Vidip-Ghosh/CertVault?style=for-the-badge&color=aqua)
 
 </div>
-******************************************************************************************************************************************************
 
 ## 🔴 Welcome contributors!
 ## Run Locally
@@ -130,10 +129,36 @@ Contributions are always welcome!
 
    Go to your forked repository on GitHub, and you should see a "Compare & pull request" button. Click on it to create a pull request (PR) from your branch to the main CertVault repository.
 
-*************************************************************
+<div>
+  
+## ⭐ Cert Vault Code of Conduct
 
+## Our Pledge
+We are committed to providing a welcoming and inclusive environment for all contributors, regardless of background and identity. We pledge to make participation in our project a harassment-free experience for everyone.
+## ☑️ Expected Behavior
+As a contributor, you are expected to:
+- Be respectful and considerate of others' ideas, opinions, and experiences.
+- Use inclusive language and avoid offensive or discriminatory comments.
+- Refrain from harassment, trolling, or any form of inappropriate behavior.
+- Listen to constructive feedback and be open to learning and improving.
+## ❎ Unacceptable Behavior
+Unacceptable behavior includes, but is not limited to:
+- Harassment, intimidation, or discrimination in any form.
+- Hate speech or offensive comments related to gender, sexual orientation, race, religion, disability, etc.
+- Trolling, insulting or derogatory comments.
+- Public or private harassment, stalking, or any form of unwanted contact.
+- Publishing others' private information, such as physical or electronic addresses, without explicit permission.
+## ❗ Reporting Violations
+If you witness or experience any behavior that violates this Code of Conduct, please report it to our project maintainers immediately. You can contact us via [email address or contact form].
+## Enforcement
+Project maintainers will review and investigate all reports of violations. We will take appropriate actions, including warnings and temporary or permanent bans, as deemed necessary. We are committed to maintaining a safe and welcoming environment for all contributors.
+## Acknowledgment
+This Code of Conduct is inspired by the [Contributor Covenant](https://www.contributor-covenant.org/version/2/0/code_of_conduct/).
+
+</div>
+
+<div>
 <h2>✔Project Admin</h2>
-
 <table>
   <tr>
 <td align="center">
@@ -177,3 +202,4 @@ If you want to contact us, you can reach us through social handles.
 
 
 © 2023 CertVault Team
+</div>
