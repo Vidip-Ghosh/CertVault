@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { TextInput, Button,AppBar } from '@react-native-material/core';
+import { TextInput, Button, AppBar } from '@react-native-material/core';
 import { StyleSheet, View } from 'react-native';
 import { NativeRouter } from 'react-router-native';
 
@@ -35,7 +35,15 @@ const Register = () => {
           secureTextEntry={true}
         />
         <Button title="Sign Up" variant="contained" style={styles.button} />
-      </View>
+        <Button
+          onPress={() => {
+            navigation.navigate('IssuerDashboard')
+          }}
+          title="I'm an Issuer"
+          variant="contained"
+          style={styles.button}
+        />      
+        </View>
     </NativeRouter>
   );
 };
@@ -46,7 +54,7 @@ const styles = StyleSheet.create({
     display: 'flex',
     justifyContent: 'center',
     alignItems: 'center',
-    width:'100vw'
+    width: '100vw'
   },
   title: {
     fontSize: 30,
@@ -58,11 +66,11 @@ const styles = StyleSheet.create({
     marginVertical: 10,
     paddingVertical: 8,
     paddingHorizontal: 16,
-    width: '100%', 
+    width: '100%',
   },
   button: {
     marginTop: 20,
-    width: '10%', 
+    width: '10%',
     paddingVertical: 12,
   },
 });
