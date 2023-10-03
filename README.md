@@ -30,13 +30,13 @@ Cert Vault is not just a digital locker; it's a comprehensive ecosystem designed
 1. **Clone the project**
 
 ```bash
-  git clone https://github.com/<your_github_username>/OpenSourceHackFest.git
+  git clone https://github.com/<your_github_username>/CertVault.git
 ```
 
 2. **Go to the project directory**
 
 ```bash
-  cd OpenSourceHackFest
+  cd CertVault
 ```
 
 3. **Go to Client directory**
@@ -64,7 +64,7 @@ Cert Vault is not just a digital locker; it's a comprehensive ecosystem designed
 
 2. **Install dependencies**
 ```bash
-  npm installl
+  npm install
 ```
 
 3. **Create a .env file and place the following value**
