@@ -1,9 +1,9 @@
 <div align='center'>
   <h1>CertVault</h1>
-    <h3>Website: <a href="https://www.google.com">Click Here!🎯</a></h3>
+  <h3>Website: <a href="https://www.google.com">Click Here!🎯</a></h3>
   <img src = "https://github.com/Vidip-Ghosh/CertVault/assets/80088403/20112d8c-b644-46b6-ab3d-7da59a14aa5b" width="300px"/>
-  <h2>Tools and Technologies used</h2>
-     <img src="https://skillicons.dev/icons?i=github,git,react,tailwind,html,css,js,vscode,ipfs"/>
+  <br/>
+  <img src="https://skillicons.dev/icons?i=github,git,react,tailwind,html,css,js,vscode,ipfs"/>
 </div>
 <div align="center">
 
@@ -20,6 +20,9 @@
 </div>
 
 ## 🔴 Welcome contributors!
+Cert Vault is not just a digital locker; it's a comprehensive ecosystem designed to handle all aspects of digital credential management. It provides a secure platform for individuals and organizations to store their certificates, badges, and important documents on the decentralized InterPlanetary File System (IPFS). Leveraging blockchain technology, Cert Vault ensures the authenticity of these credentials, allowing users to share them with confidence. Claimers can verify their identity securely and claim their credentials into their digital wallet, streamlining the process of acquiring and managing digital badges and certificates.
+
+
 ## Run Locally
 
 **Client**
@@ -27,13 +30,13 @@
 1. **Clone the project**
 
 ```bash
-  git clone https://github.com/<your_github_username>/OpenSourceHackFest.git
+  git clone https://github.com/<your_github_username>/CertVault.git
 ```
 
 2. **Go to the project directory**
 
 ```bash
-  cd OpenSourceHackFest
+  cd CertVault
 ```
 
 3. **Go to Client directory**
@@ -61,7 +64,7 @@
 
 2. **Install dependencies**
 ```bash
-  npm installl
+  npm install
 ```
 
 3. **Create a .env file and place the following value**
@@ -84,7 +87,7 @@ Contributions are always welcome!
    Once you have forked the repository, clone it to your local development environment using the following command:
 
    ```sh
-   https://github.com/<your_github_username>/OpenSourceHackFest.git
+   https://github.com/<your_github_username>/CertVault.git
    ```
 
    Replace **your-username** with your GitHub username.
@@ -94,7 +97,7 @@ Contributions are always welcome!
    Move into the project's directory and create a new branch for your contributions:
 
    ```sh
-   cd OpenSourceHackFest
+   cd CertVault
    git checkout -b my-feature-branch
    ```
 
@@ -130,34 +133,6 @@ Contributions are always welcome!
    Go to your forked repository on GitHub, and you should see a "Compare & pull request" button. Click on it to create a pull request (PR) from your branch to the main CertVault repository.
 
 <div>
-  
-## ⭐ Cert Vault Code of Conduct
-
-## Our Pledge
-We are committed to providing a welcoming and inclusive environment for all contributors, regardless of background and identity. We pledge to make participation in our project a harassment-free experience for everyone.
-## ☑️ Expected Behavior
-As a contributor, you are expected to:
-- Be respectful and considerate of others' ideas, opinions, and experiences.
-- Use inclusive language and avoid offensive or discriminatory comments.
-- Refrain from harassment, trolling, or any form of inappropriate behavior.
-- Listen to constructive feedback and be open to learning and improving.
-## ❎ Unacceptable Behavior
-Unacceptable behavior includes, but is not limited to:
-- Harassment, intimidation, or discrimination in any form.
-- Hate speech or offensive comments related to gender, sexual orientation, race, religion, disability, etc.
-- Trolling, insulting or derogatory comments.
-- Public or private harassment, stalking, or any form of unwanted contact.
-- Publishing others' private information, such as physical or electronic addresses, without explicit permission.
-## ❗ Reporting Violations
-If you witness or experience any behavior that violates this Code of Conduct, please report it to our project maintainers immediately. You can contact us via [email address or contact form].
-## Enforcement
-Project maintainers will review and investigate all reports of violations. We will take appropriate actions, including warnings and temporary or permanent bans, as deemed necessary. We are committed to maintaining a safe and welcoming environment for all contributors.
-## Acknowledgment
-This Code of Conduct is inspired by the [Contributor Covenant](https://www.contributor-covenant.org/version/2/0/code_of_conduct/).
-
-</div>
-
-<div>
 <h2>✔Project Admin</h2>
 <table>
   <tr>
@@ -187,6 +162,13 @@ This Code of Conduct is inspired by the [Contributor Covenant](https://www.contr
 </td>
   </tr>
 </table>
+  
+<h2>✨Top Contributors</h2>   
+Thanks goes to these Wonderful People. Contributions of any kind are welcome!🚀 
+<br/>
+<a href="https://github.com/Vidip-Ghosh/CertVault/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=Vidip-Ghosh/CertVault" />
+</a>
 
 <h2>⭐Give this Project a Star</h2>
 
@@ -202,4 +184,6 @@ If you want to contact us, you can reach us through social handles.
 
 
 © 2023 CertVault Team
+<br/>
+[![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com) [![forthebadge](https://forthebadge.com/images/badges/built-by-developers.svg)](https://forthebadge.com) [![forthebadge](https://forthebadge.com/images/badges/built-with-swag.svg)](https://forthebadge.com) 
 </div>
