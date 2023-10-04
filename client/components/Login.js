@@ -1,39 +1,35 @@
-import React, { useState } from 'react';
-import { TextInput, Button, AppBar } from '@react-native-material/core';
-import { StyleSheet, View, Text } from 'react-native';
-import { NativeRouter } from 'react-router-native';
+import React, { useState } from "react";
+import { TextInput, Button, AppBar } from "@react-native-material/core";
+import { StyleSheet, View, Text } from "react-native";
+import { NativeRouter } from "react-router-native";
+import { serverUrl } from "../core/constants";
 
-const Login = ({navigation}) => {
-  const [name, setName] = useState('');
-  const [password, setPassword] = useState('');
-  async function log(){
+const Login = ({ navigation }) => {
+  const [name, setName] = useState("");
+  const [password, setPassword] = useState("");
+  async function log() {
+    const url = serverUrl;
 
-    
-    const url="http://192.168.1.6:3000/auth/login";
-  
     const options = {
-      method:"POST",
+      method: "POST",
       headers: {
-        "Content-Type": "application/json"
+        "Content-Type": "application/json",
       },
-      body : JSON.stringify({
-        userName : name,
-        password : password
-      })
-    }
-    try{
-      const response = await fetch(url,options);
+      body: JSON.stringify({
+        userName: name,
+        password: password,
+      }),
+    };
+    try {
+      const response = await fetch(url, options);
       const result = await response.json();
-      if(result.token){
-        navigation.navigate("Dashboard")
+      if (result.token) {
+        navigation.navigate("Dashboard");
       }
       console.log(result);
+    } catch (err) {
+      console.error(err);
     }
-    catch(err){
-      console.error(err)
-    }
-      
-
   }
 
   return (
@@ -55,21 +51,21 @@ const Login = ({navigation}) => {
           onChangeText={(text) => setPassword(text)}
           secureTextEntry={true}
         />
-        <Button 
+        <Button
           // onPress={()=>{
           //   navigation.navigate('Dashboard')
-          // }} 
-           onPress={log}
-          title="Log In" 
-          variant="contained" 
+          // }}
+          onPress={log}
+          title="Log In"
+          variant="contained"
           style={styles.button}
         />
-        <Button 
-          onPress={()=>{
-            navigation.navigate('Register')
-          }} 
-          title="Sign up" 
-          variant="contained" 
+        <Button
+          onPress={() => {
+            navigation.navigate("Register");
+          }}
+          title="Sign up"
+          variant="contained"
           style={styles.button}
         />
       </View>
@@ -80,25 +76,25 @@ const Login = ({navigation}) => {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    display: 'flex',
-    justifyContent: 'center',
-    alignItems: 'center',
-    width:'100vw'
+    display: "flex",
+    justifyContent: "center",
+    alignItems: "center",
+    width: "100vw",
   },
   title: {
     fontSize: 30,
-    fontWeight: 'bold',
+    fontWeight: "bold",
   },
   textInput: {
     fontSize: 18,
     marginVertical: 10,
     paddingVertical: 8,
     paddingHorizontal: 16,
-    width: '100%', 
+    width: "100%",
   },
   button: {
     marginTop: 20,
-    width: '35%', 
+    width: "35%",
     paddingVertical: 12,
   },
 });
