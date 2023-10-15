@@ -4,6 +4,8 @@ import { StyleSheet, View } from "react-native";
 import { NativeRouter } from "react-router-native";
 import { serverUrl } from "../core/constants";
 
+// Register Page
+// PR Template testing
 const Register = ({ navigation }) => {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
